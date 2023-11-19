@@ -1,0 +1,24 @@
+{
+  "name": "associacao-de-cores",
+  "version": "1.0.0",
+  "license": "MIT",
+  "description": "Este projeto tem o intuito de representar visualmente os dados obtidos na pesquisa conduzida no meu TCC",
+  "author": "c-diego",
+  "keywords": [
+    "cores",
+    "associacao de cores",
+    "chartjs",
+    "c-diego",
+    "tcc"
+  ],
+  "scripts": {
+    "dev": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "dependencies": {
+    "chart.js": "^4.4.0"
+  },
+  "devDependencies": {
+    "parcel": "^2.10.3"
+  }
+}
