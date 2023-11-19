@@ -20,7 +20,7 @@ def group_age_hallock(age):
   elif age <= 50:
     age_group = '36 a 50'
   elif age <= 61:
-    age_group = '51 a 61'
+    age_group = '51 a 69'
   else:
     age_group = 'mais de 70'
 
