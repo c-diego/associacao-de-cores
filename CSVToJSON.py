@@ -10,12 +10,32 @@ def read_csv(path):
   
   return data_list
 
+def group_age_hallock(age):
+  if age <= 18:
+    age_group = 'Até 18'
+  elif age <= 24:
+    age_group = '19 a 24'
+  elif age <= 35:
+    age_group = '25 a 35'
+  elif age <= 50:
+    age_group = '36 a 50'
+  elif age <= 61:
+    age_group = '51 a 61'
+  else:
+    age_group = 'mais de 70'
+
+  return age_group
+
+
 def create_dict(data_list):
   data_dict = defaultdict(list)
 
   for participant_answer in data_list:
     for question, answer in participant_answer.items():
         
+        if (question == 'What is your age?'):
+          answer = group_age_hallock(int(answer))
+
         if (answer.isdigit()):
           answer = int(answer)
         
