@@ -12,8 +12,8 @@
     "tcc"
   ],
   "scripts": {
-    "dev": "parcel index.html",
-    "build": "parcel build index.html"
+    "dev": "parcel web/index.html",
+    "build": "parcel build web/index.html"
   },
   "dependencies": {
     "chart.js": "^4.4.0"

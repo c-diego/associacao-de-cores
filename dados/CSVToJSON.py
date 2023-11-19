@@ -48,7 +48,7 @@ def save_dict_to_json(data_dict, path):
     json.dump(data_dict, file, ensure_ascii=False, indent=2)
 
 csv_file = '2003.csv'
-json_file = '2003.json'
+json_file = '2003-2.json'
 
 data_list = read_csv(csv_file)
 data_dict = create_dict(data_list)
