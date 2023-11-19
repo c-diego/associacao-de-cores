@@ -10,7 +10,7 @@ def read_csv(path):
   
   return data_list
 
-def group_age_hallock(age):
+def group_age_2003(age):
   if age <= 18:
     age_group = 'Até 18'
   elif age <= 24:
@@ -34,7 +34,7 @@ def create_dict(data_list):
     for question, answer in participant_answer.items():
         
         if (question == 'What is your age?'):
-          answer = group_age_hallock(int(answer))
+          answer = group_age_2003(int(answer))
 
         if (answer.isdigit()):
           answer = int(answer)
@@ -47,8 +47,8 @@ def save_dict_to_json(data_dict, path):
   with open(path, 'w', encoding='UTF-8') as file:
     json.dump(data_dict, file, ensure_ascii=False, indent=2)
 
-csv_file = 'hallock.csv'
-json_file = 'hallock.json'
+csv_file = '2003.csv'
+json_file = '2003.json'
 
 data_list = read_csv(csv_file)
 data_dict = create_dict(data_list)
