@@ -1,3 +1,4 @@
+/*
 import Chart from 'chart.js/auto';
 
 function makeBarChart(canvas, config) {
@@ -463,4 +464,4 @@ const age2023Config = createConfigForAgeChart(ageByGroup2023, 'Distribuição de
 const age2003Config = createConfigForAgeChart(ageByGroup2003, 'Distribuição de Idade 2003');
 
 makeBarChart(document.getElementById('age2023'), age2023Config);
-makeBarChart(document.getElementById('age2003'), age2003Config);
+makeBarChart(document.getElementById('age2003'), age2003Config);*/
