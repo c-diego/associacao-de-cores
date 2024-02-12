@@ -19,6 +19,6 @@
     "sourceType": "module"
   },
   "plugins": ["react"],
-  "ignorePatterns": ["vite.config.ts"],
+  "ignorePatterns": ["vite.config.ts", "script.js"],
   "rules": {}
 }
