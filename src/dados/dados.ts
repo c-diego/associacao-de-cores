@@ -3,7 +3,7 @@ export const dados = {
     { Male: 88, Female: 143 },
     { Masculino: 82, Feminino: 66 }
   ],
-  barato: [
+  Barato: [
     {
       Brown: 31,
       Orange: 61,
@@ -29,7 +29,7 @@ export const dados = {
       Grey: 3
     }
   ],
-  confiabilidade: [
+  Confiabilidade: [
     {
       White: 18,
       Blue: 98,
@@ -55,7 +55,7 @@ export const dados = {
       Orange: 3
     }
   ],
-  credibilidade: [
+  Credibilidade: [
     {
       White: 48,
       Yellow: 17,
@@ -82,7 +82,7 @@ export const dados = {
       Pink: 1
     }
   ],
-  seguranca: [
+  Segurança: [
     {
       Blue: 66,
       Grey: 16,
@@ -108,7 +108,7 @@ export const dados = {
       Grey: 1
     }
   ],
-  velocidade: [
+  Velocidade: [
     {
       Grey: 2,
       Red: 174,
@@ -134,7 +134,7 @@ export const dados = {
       White: 7
     }
   ],
-  diversao: [
+  Diversão: [
     {
       Yellow: 60,
       Purple: 40,
@@ -156,7 +156,7 @@ export const dados = {
       Brown: 1
     }
   ],
-  altaQualidade: [
+  'Alta Qualidade': [
     {
       Black: 98,
       Green: 14,
@@ -183,7 +183,7 @@ export const dados = {
       Red: 3
     }
   ],
-  altaTecnologia: [
+  'Alta Tecnologia': [
     {
       Black: 62,
       Blue: 52,
@@ -210,7 +210,7 @@ export const dados = {
       Red: 3
     }
   ],
-  desespero: [
+  Desespero: [
     {
       Purple: 8,
       White: 10,
@@ -235,7 +235,7 @@ export const dados = {
       Pink: 1
     }
   ],
-  medo: [
+  Medo: [
     {
       Red: 93,
       Black: 89,
@@ -259,7 +259,7 @@ export const dados = {
       Pink: 1
     }
   ],
-  doenca: [
+  Doença: [
     {
       Orange: 12,
       Red: 27,
@@ -285,7 +285,7 @@ export const dados = {
       Blue: 2
     }
   ],
-  coragem: [
+  Coragem: [
     {
       White: 19,
       Purple: 67,
@@ -311,7 +311,7 @@ export const dados = {
       Grey: 3
     }
   ],
-  favorita: [
+  Favorita: [
     {
       Blue: 100,
       Red: 19,
@@ -338,7 +338,7 @@ export const dados = {
       White: 3
     }
   ],
-  menosFavorita: [
+  'Menos Favorita': [
     {
       Brown: 54,
       Yellow: 30,
